@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title></title>
+	<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+	<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+	<!------ Include the above in your HEAD tag ---------->
+</head>
+
+<body>
+
+	<!--Ceaser Cipher-->
+	<div class="container ">
+
+		<div class="row centered-form">
+			<div class="col-xs-12 col-sm-8 col-md-4 col-sm-offset-2 col-md-offset-4">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h3 class="panel-title">Caeser Cipher for you,<small>It's free!</small></h3>
+					</div>
+					<div class="panel-body">
+						<form role="form">
+							<p>
+							<h4>Encryption</h4>
+							</p>
+							<div class="row">
+								<div class="col-xs-6 col-sm-6 col-md-6">
+									<div class="form-group">
+										<input type="text" name="value" id="text" class="form-control input-sm"
+											placeholder="Enter text">
+
+									</div>
+
+								</div>
+								<div class="col-xs-6 col-sm-6 col-md-6">
+									<div class="form-group">
+										<input type="number" name="num" id="num" class="form-control input-sm">
+
+									</div>
+
+								</div>
+
+
+								<div class="col-xs-6 col-sm-6 col-md-6">
+									<div class="form-group">
+										<input type="text" name="encrypt" id="encrypt" value=""
+											class="form-control input-sm" placeholder="Encrypted value will show here!">
+									</div>
+								</div>
+							</div>
+
+
+							<input type="button" value="Encrypt" class="btn btn-info btn-block" onclick="en();">
+
+						</form>
+
+						<!--Decryption-->
+						<form role="form">
+							<p>
+							<h4>Decryption</h4>
+							</p>
+							<div class="row">
+								<div class="col-xs-6 col-sm-6 col-md-6">
+									<div class="form-group">
+										<input type="text" name="value" id="txt" class="form-control input-sm"
+											placeholder="Enter text">
+
+									</div>
+
+								</div>
+								<div class="col-xs-6 col-sm-6 col-md-6">
+									<div class="form-group">
+										<input type="number" name="num" id="num1" class="form-control input-sm">
+
+									</div>
+
+								</div>
+
+
+								<div class="col-xs-6 col-sm-6 col-md-6">
+									<div class="form-group">
+										<input type="text" name="decrypt" id="decrypt" value=""
+											class="form-control input-sm" placeholder="decrypted value will show here!">
+									</div>
+								</div>
+							</div>
+
+
+							<input type="button" value="Decrypt" class="btn btn-info btn-block" onclick="de();">
+
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	
+	
+	
+	<script src="index.js" type="text/javascript"></script>
+
+</body>
+
+</html>

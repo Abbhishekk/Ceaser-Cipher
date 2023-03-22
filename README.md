@@ -1,2 +1,2 @@
 # Ceaser-Cipher
- Made a ceaser cipher encrypter and decrypter
+ Made a ceaser cipher encrypter and decrypter using javascript
